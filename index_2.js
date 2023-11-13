@@ -1,7 +1,6 @@
 const slides = document.querySelectorAll(".carousel-item");
-console.log("slides:", slides);
 const indicators = document.querySelectorAll(
-    "div.carousel-indicators>[data-bs-target='#myCarousel']"
+    "div.carousel-indicators>[data-bs-target='#carouselExampleCaptions']"
 );
 const [prevButton, nextButton] = document.querySelectorAll(
     ".carousel-control-prev, .carousel-control-next"
